@@ -338,3 +338,5 @@ If you're running into any difficulties with Floorplan, below is a list of thing
   #light\.hallway:hover {
   }
   ```
+  
+- If your text element doesn't appear or doesn't change with a `floorplan.text_set` state action, make sure you have a `<tspan></tspan>` tag inside your `<text></text>` tag in your SVG file. 
